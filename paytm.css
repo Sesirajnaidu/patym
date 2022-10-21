@@ -1,0 +1,59 @@
+	.nav{
+			background-color: box-shadow;
+			box-shadow: rgb(0, 0, 0.2);
+			display: flex;
+			justify-content: space-evenly;
+			}
+	.nav a{color: black;
+				font-size: 30px;
+				text-decoration: none;
+				padding: 1%;
+			}
+	.nav a:hover		{
+			background-color: seashell;
+			box-shadow: rgb(2, 2, 2);
+			}
+	.btn		{
+		background-color: lightblue;
+		color: white;
+		border-color:lightblue;
+		border-width: 1px;
+		border-radius: 30px;
+		padding-right:2% ;
+		padding-left: 2%;
+			}
+	.btn button:hover		{
+		background-color: navy;
+
+			}
+	.msg{ 		margin-bottom: 15%;
+				 box-shadow: 5px 2px #888888;
+				 text-align: center;
+				font-weight: bolder;
+				font size: 35px;
+			}
+
+				
+	.upi		{
+				margin-top: 7%;
+
+				}
+				#bills{font-size:30px ;
+					margin-top: 10%;
+				}
+				.india{
+					font-size: 70px;
+
+				}
+.download		{
+					text-decoration: none;
+					border: 1px solid black;
+					background-color: black;
+					border-radius: 20px;
+
+				}
+.download a:hover{
+					background-color: white;
+					color: black;
+				}
+
