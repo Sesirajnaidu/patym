@@ -1,59 +1,89 @@
-	.nav{
-			background-color: box-shadow;
-			box-shadow: rgb(0, 0, 0.2);
-			display: flex;
-			justify-content: space-evenly;
-			}
-	.nav a{color: black;
-				font-size: 30px;
-				text-decoration: none;
-				padding: 1%;
-			}
-	.nav a:hover		{
-			background-color: seashell;
-			box-shadow: rgb(2, 2, 2);
-			}
-	.btn		{
-		background-color: lightblue;
-		color: white;
-		border-color:lightblue;
-		border-width: 1px;
-		border-radius: 30px;
-		padding-right:2% ;
-		padding-left: 2%;
-			}
-	.btn button:hover		{
-		background-color: navy;
+*{
+	margin: 0%;
+}
+.nav{font-family: 'Poppins', sans-serif; 
 
-			}
-	.msg{ 		margin-bottom: 15%;
-				 box-shadow: 5px 2px #888888;
-				 text-align: center;
-				font-weight: bolder;
-				font size: 35px;
-			}
+}
+.nav img {
+	vertical-align: middle;
+	padding-top: 1%;
+	margin-right: 5%;
+	padding-left: 4%;
+}
 
-				
-	.upi		{
-				margin-top: 7%;
+.nav a {
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 1.5%;
+	
+}
 
-				}
-				#bills{font-size:30px ;
-					margin-top: 10%;
-				}
-				.india{
-					font-size: 70px;
+.nav a:hover {
+	background-color: ghostwhite;
 
-				}
-.download		{
-					text-decoration: none;
-					border: 1px solid black;
-					background-color: black;
-					border-radius: 20px;
+}
 
-				}
-.download a:hover{
-					background-color: white;
-					color: black;
-				}
+#btn {
+	background-color: #00baf2;
+	border-radius: 25px;
+	padding: 1% 1% 1% 1%;
+	margin-left: 15%;
 
+}
+
+#btn:hover {
+	background-color: navy;
+	color: white;
+
+
+}
+
+.msg {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	font-family:'Poppins', sans-serif; 
+	text-align: center;
+	font-weight: bolder;
+	font size: 25px;
+	padding: 1%;
+
+}
+
+.sec2{
+	display: inline-flex;
+	justify-content: space-between;
+	font-family:'Poppins', sans-serif;
+	margin-top: 1%;  
+	padding:5% 0% 5% 8% ;
+}
+.India {
+	padding-top: 8%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 45px; 
+}
+
+
+
+.recharge{
+	padding-top: 5%;
+	font-size: 20px;
+}
+#download {
+	border:1px solid black ;
+	font-size: 20px;
+	padding: 2% 8% 2% 7%;
+	width: 80%;
+	margin-top: 13%; 
+	border-radius: 25px;
+	background-color: black;
+	color: whitesmoke;
+	
+
+}
+
+#download:hover{
+	background-color: white;
+	color: black;
+}
