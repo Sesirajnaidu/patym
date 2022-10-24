@@ -1,6 +1,7 @@
 *{
 	margin: 0%;
 }
+}
 .nav{font-family: 'Poppins', sans-serif; 
 
 }
@@ -86,4 +87,54 @@
 #download:hover{
 	background-color: white;
 	color: black;
+}
+.sec3{background-color:#00baf2 ;
+	font-family:'Poppins', sans-serif;
+
+
+}
+.sec3 a{padding: 4%;
+
+}
+.sec3 p{display: inline-flex;
+	flex-direction: row;
+		padding-right: 8.5%;
+		font-family:'Poppins', sans-serif; 
+		color: white;
+}
+.sec3 a: hover{
+	background-color: box-shadow;
+	box-shadow: box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sec3 h1{padding-bottom: 3%;
+	color: white;
+	margin-left: 1%;
+	font-size: 30px;
+
+}
+.sec4{
+	background-color: #042e6f;
+}
+.sec4 a{
+	padding: 4%;
+
+}
+.sec4 h1{padding-bottom: 3%;
+	color: white;
+	margin-left: 1%;
+	font-size: 30px;
+	font-family:'Poppins', sans-serif; 
+
+
+}
+.sec4 p{
+	display: inline-flex;
+	flex-direction: row;
+		padding-right: 9%;
+
+		font-family:'Poppins', sans-serif; 
+		color: white;
+}
+.sec5{font-family: 'Poppins', sans-serif;
+		margin-left: 1%;
 }
