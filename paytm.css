@@ -266,21 +266,25 @@ body{background-color: rgba(239, 239, 239, 0.6);
 	font-family: 'Poppins', sans-serif;
 		
 		display: inline-flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	font-family:'Poppins', sans-serif;
 	 
 	
 	align-content: justify;
 }
 .sec8div1{border: 1px solid white;
+	width: 70%;
+	border-radius: 15px;
 	background-color: white;
-	margin: 3% 8% 3% 10%;
-	padding: 5%;  
+	margin: 2% 8% 3% 12%;
+	padding: 3%;  
 }
 .sec8div2{border: 1px solid white;
+	border-radius: 15px;
+	width: 70%;
 	background-color: white;
-	margin: 3% 7% 3% 4%;
-		padding-left: 5%;  
+	margin: 3% 10% 3% 4%;
+		padding: 3%;  
 
 }
 .sec8 h1{font-size: 40px;
@@ -294,17 +298,18 @@ body{background-color: rgba(239, 239, 239, 0.6);
 
 }
 .sec9{
-	border: 1px solid white;
+	
 	background-color: white;
 	font-family: 'Poppins', sans-serif;
-	margin: 1% 7% 1% 7%; 
-		display: inline-flex;
+	margin: 3% 7% 1% 7%; 
+	display: inline-flex;
 	justify-content: space-between;
 	font-family:'Poppins', sans-serif;
-	 padding:5% 0% 5% 8% ;
-	align-content: justify;
+	 padding:5% 4% 5% 8% ;
+	
 }
-.sec9 h1{font-size: 40px;
+.sec9 h1{
+		font-size: 40px;
 		padding-bottom: 1%;
 		margin-bottom: 1%;
 }
@@ -316,6 +321,7 @@ body{background-color: rgba(239, 239, 239, 0.6);
 #more{background-color:#042e6f ;
 	border-radius: 25px;
 	color: white;
+	width: 40%;
 	padding: 1%;
 	margin-left: 2.5% ;
 }
@@ -341,4 +347,39 @@ body{background-color: rgba(239, 239, 239, 0.6);
 .sec10div1{
 	margin-top: 2%; 
 	margin-left: 5%;
+}
+.services{
+	font-family:'Poppins', sans-serif;
+	margin-left: 7%;
+	font-size: 50px;
+}
+.sec11{background-color: rgba(239, 239, 239, 0.6);
+	font-family: 'Poppins', sans-serif;
+	margin: 3% 7% 1% 7%; 
+	display: inline-flex;
+	justify-content: space-between;
+	font-family:'Poppins', sans-serif;
+	 padding:5% 4% 5% 8% ;
+	 width: 80%;
+}
+.ease {margin-top: 13%;
+
+	
+}
+.sec12{display: flex;
+		justify-content: space-between;
+		text-decoration: none;
+		font-family:'Poppins', sans-serif; 
+		
+		margin:7% 5% 1% 10% ;
+	}
+.sec12 a{
+	color: black;
+	font-weight: bold;
+	padding: 1%;
+
+	}
+.sec12 p{font-weight: bold;
+	padding: 1%;
+
 }
