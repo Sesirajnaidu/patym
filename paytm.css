@@ -1,5 +1,6 @@
 *{
 	margin: 0%;
+	border: 1%;
 }
 body a{
 	text-decoration: none;
@@ -249,12 +250,15 @@ body{background-color: rgba(239, 239, 239, 0.6);
 	font-weight:bold ;
 
 }
-#learn{background-color:#042e6f ;
+#learn{border: 1px solid black;
+	background-color:#042e6f ;
 	border-radius: 25px;
+	text-align: center;
 	color: white;
-	padding: 1%;
-	
-	margin-left: 2.5% ;
+	width: 40%;
+	padding: 1.5%;
+	margin-top:35px ;
+	font-size: 14px;
 
 }
 #learn:hover{background-color:#00baf2 ;
@@ -318,12 +322,16 @@ body{background-color: rgba(239, 239, 239, 0.6);
 	margin-bottom:5% ;
 	font-weight:bold ;
 }
-#more{background-color:#042e6f ;
+#more{
+	border: 1px solid black;
+	background-color:#042e6f ;
 	border-radius: 25px;
+	text-align: center;
 	color: white;
 	width: 40%;
-	padding: 1%;
-	margin-left: 2.5% ;
+	padding: 1.5%;
+	margin-top:35px ;
+	font-size: 14px;
 }
 #more:hover{background-color:#00baf2 ;
 	color: black;
@@ -381,5 +389,28 @@ body{background-color: rgba(239, 239, 239, 0.6);
 	}
 .sec12 p{font-weight: bold;
 	padding: 1%;
+
+}
+.sec13{
+	font-family: 'Poppins', sans-serif;
+	margin: 6% 7% 0% 20%; 
+	display: inline-flex;
+	justify-content: space-between;
+	font-family:'Poppins', sans-serif;
+}
+.sec13 a{color:#00baf2  ;
+
+}
+.sec13div1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	padding: 4%;
+}
+.sec13div2{border: 4px solid #00baf2 ;
+	background-color: #00baf2 ;
+	border-radius: 4%;
+	padding-bottom: 0%;
+	margin: 0% 2% 0% 1%;
+	font-weight: bolder;
 
 }
