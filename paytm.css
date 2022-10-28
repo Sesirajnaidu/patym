@@ -1,6 +1,6 @@
 *{
 	margin: 0%;
-	border: 1%;
+	/*border: 1px solid darkred;*/
 }
 body a{
 	text-decoration: none;
@@ -367,7 +367,7 @@ body{background-color: rgba(239, 239, 239, 0.6);
 	display: inline-flex;
 	justify-content: space-between;
 	font-family:'Poppins', sans-serif;
-	 padding:5% 4% 5% 8% ;
+	 padding:5% 4% 5% 2% ;
 	 width: 80%;
 }
 .ease {margin-top: 13%;
@@ -378,7 +378,6 @@ body{background-color: rgba(239, 239, 239, 0.6);
 		justify-content: space-between;
 		text-decoration: none;
 		font-family:'Poppins', sans-serif; 
-		
 		margin:7% 5% 1% 10% ;
 	}
 .sec12 a{
@@ -400,11 +399,13 @@ body{background-color: rgba(239, 239, 239, 0.6);
 }
 .sec13 a{color:#00baf2  ;
 
-}
+/*}
 .sec13div1{
 	font-family: 'Poppins', sans-serif;
-	font-size: 20px;
-	padding: 4%;
+	font-size: 15px;
+	padding: 1%;
+	margin-right: 1%;
+	width: 10%;*/
 }
 .sec13div2{border: 4px solid #00baf2 ;
 	background-color: #00baf2 ;
@@ -412,5 +413,129 @@ body{background-color: rgba(239, 239, 239, 0.6);
 	padding-bottom: 0%;
 	margin: 0% 2% 0% 1%;
 	font-weight: bolder;
-
+	color: white;
 }
+
+
+@media (max-width:390px){
+	.nav a{
+		font-size: 4px;
+	}
+	.msg{
+		font-size: 4px;
+	}
+	.sec2 h1{font-size: 7px;
+
+	}
+	.sec2{font-size: 5px;
+		flex-direction: column;
+		align-items:center ;
+
+	}
+	#download{
+		font-size: 3px;
+		width: 35%;
+	}
+	.sec3{flex-direction: column;
+		align-items: center;
+		font-size: 5px;
+	}
+	.sec4{flex-direction: column;
+		align-items: center;
+		font-size: 5px;
+	}
+	.sec5{
+		flex-direction: column;
+		align-items: center;
+		font-size: 5px;
+
+	}
+	#app{font-size: 3px;
+		width: 38%;
+
+	}
+	.sec6 h1{font-size: 7px;
+
+
+	}
+	.sec6{
+		flex-direction: column;
+		align-items: center;
+		font-size: 5px;
+
+	}
+	.sec7 h1{font-size:7px ;
+
+	}
+	.sec7{
+		flex-direction: column;
+		align-items: center;
+		font-size: 5px;
+
+	}
+	#learn{font-size: 3px;
+		width: 38%;
+
+	}
+	.sec8{
+	flex-direction: column;
+	align-items: center;
+	font-size: 5px;
+
+	}
+	.sec8 h1{font-size: 7px;
+
+	}
+	.sec9{font-size:5px ;
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.sec9 h1{font-size: 7px;
+
+	}
+	#more{font-size: 3px;
+		width: 38%;
+
+
+	}
+	.sec10{
+		font-size: 5px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.sec10 h1{ font-size: 7px;
+
+	}
+	.services{font-size: 7px;
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.sec11{font-size: 5px;
+		flex-direction: column;
+		align-items: center;
+
+	
+	}
+	.sec12{flex-direction: column;
+		align-items: center;
+		font-size: 5px;
+
+
+	}
+	
+	.sec13{
+		font-size: 5px;}
+
+	.sec13 img{width: 40%;
+
+	}
+	.sec13div2 img{width: 40%;
+		border: 3px solid #00baf2;
+
+	}
+}
+
+
+
